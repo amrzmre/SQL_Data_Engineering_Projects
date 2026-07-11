@@ -1,4 +1,4 @@
-SELECT
+ SELECT
 LIMIT 10
 FROM job_postings_fact;
 

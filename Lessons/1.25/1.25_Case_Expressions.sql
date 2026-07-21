@@ -111,7 +111,7 @@ SELECT
     CASE
         WHEN standardized_salary IS NULL THEN 'Missing'
         WHEN standardized_salary < 75_000 THEN 'Low'
-        WHEN standardized_salary < 150_000 THEN 'Medium'
+        WHEN standa rdized_salary < 150_000 THEN 'Medium'
         ELSE 'High'
     END AS salary_bucket
 FROM salaries

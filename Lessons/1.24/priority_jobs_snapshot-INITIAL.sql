@@ -34,7 +34,7 @@ LEFT JOIN data_jobs.company_dim AS cd
 INNER JOIN staging.priority_roles AS r 
     ON jpf.job_title_short = r.role_name;
 
-
+-- Data Validation
 SELECT
     job_title_short,
     COUNT(*) AS job_count,
